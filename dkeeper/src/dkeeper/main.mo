@@ -2,6 +2,8 @@ import List "mo:base/List";
 import Debug "mo:base/Debug";
 
 actor DKeeper {
+
+  //create operation of CRUD
   public type Note = {
     title: Text;
     content: Text;
